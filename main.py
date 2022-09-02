@@ -9,7 +9,7 @@ def insere_consumo(con, id_consumo, valores, quantidades):
     con.comit()
 
 def main():
-    con = criar_conexao("localhost", "root", "", "hotelaria2")
+    con = criar_conexao("localhost", "root", "", "hotelaria")
 
 
     fechar_conexao(con)
