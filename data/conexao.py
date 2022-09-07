@@ -6,4 +6,7 @@ def criar_conexao(host, usuario, senha, banco):
 
 def fechar_conexao(con):
     return con.close()
-    print(con)
+
+def getConexao():
+     con = criar_conexao("localhost", "root", "", "hotelaria")
+     return con    
